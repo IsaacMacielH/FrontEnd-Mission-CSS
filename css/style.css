@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.page-name {
+  color: rgb(33, 76, 202);
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 18px 40px;
+  padding-right: 350px;
+}
+
+.section-head {
+  background: yellow;
+  position: relative;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li {
+  color: gray;
+  font-size: large;
+}
+
+nav {
+  background: #ffffffc5;
+  position: absolute;
+  height: 70px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+.nav-button {
+  background-color: rgb(54, 86, 211);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 16px 30px;
+}
+
+.principal-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 400px;
+}
+
+.div-info {
+  width: 50%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+h2 {
+  color: #1f3e72;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 40pt;
+}
+
+.principal-info {
+  color: #b1b8c5;
+  padding-bottom: 40px;
+}
+
+.principal-page {
+  width: 50%;
+}
+
+.div-info {
+  width: 120%;
+  padding: 200px 0px 300px 100px;
+}
+
+.div-info-img {
+  width: 60%;
+  margin: 0;
+}
+
+defn {
+  color: #49628c;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.schedule-title {
+  color: #1f3e72;
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+}
+
+.schedule {
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  width: 65%;
+  height: 100px;
+  margin: 15px auto;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.schedule-inside {
+  padding-top: 20px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.schedule-label {
+  font-size: 20px;
+  color: #7f8ca0;
+}
+
+::placeholder {
+  font-size: 20px;
+  color: #385482;
+  font-weight: bold;
+}
+
+.schedule-input {
+  font-size: 20px;
+  border: 0px;
+}
+
+.schedule-button {
+  background-color: rgb(54, 86, 211);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 16px 30px;
+}
+
+.vaccine-banner {
+  text-align: center;
+}
+.why-vaccine {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.why-vaccine-preview {
+  padding: 30px 0px 30px 100px;
+  height: 120px;
+}
+
+.why-vaccine-title {
+  color: #1f3e72;
+  font-size: 30px;
+  line-height: 40pt;
+}
+
+.why-vaccine-p {
+  color: #b1b8c5;
+  padding-bottom: 40px;
+  width: 35%;
+  line-height: 20pt;
+}
+
+.why-vaccine-boxes {
+  padding: 10px 0px 30px 80px;
+  display: flex;
+}
+
+.why-vaccine-card {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 45px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 2px lightgray;
+  height: 250px;
+  width: 200px;
+}
+
+.why-figure {
+  padding: 20px 0px 20px 15px;
+}
+
+.card-title {
+  color: #385482;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.card-content {
+  color: #b1b8c5;
+  width: 80%;
+  line-height: 15pt;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+i {
+  color: #3353d1;
+}
+
+.preparations-image {
+  width: 300px;
+}
+
+.preparations-image-img {
+  width: 500px;
+  height: 513px;
+}
+
+.preparations-info {
+  width: 510px;
+}
+
+.preparations-prev {
+}
+
+.preparations-title {
+  color: #1f3e72;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.preparations-p {
+  color: #b1b8c5;
+  padding-bottom: 40px;
+  width: 80%;
+  line-height: 20pt;
+}
+
+.preparations-card {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.preparations-card-title {
+  font-size: 15px;
+  font-weight: normal;
+  color: #49628c;
+}
+
+.emergency {
+  width: 400px;
+  padding-top: 100px;
+}
+
+.emergency-title {
+  padding-left: 100px;
+  color: #1f3e72;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.emergency-p {
+  color: #b1b8c5;
+  padding-bottom: 40px;
+  width: 105%;
+  line-height: 20pt;
+  padding-left: 100px;
+}
+
+.emergency-image {
+  padding-top: 100px;
+  position: relative;
+  left: -90px;
+}
+
+.emergency-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 50px;
+}
+
+.emergency-card {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 45px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 2px lightgray;
+  height: 150px;
+  width: 200px;
+}
+
+.card-emer-title {
+  color: #385482;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+  padding: 10px 0px 20px 35px;
+}
+
+.card-emer-content {
+  color: #b1b8c5;
+  width: 80%;
+  line-height: 15pt;
+  font-size: 12px;
+  padding-left: 35px;
+}
+
+.schedule-emer-button {
+  background-color: rgb(54, 86, 211);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 16px 30px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+
+.footer-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 400px;
+  background-color: #eef3ff;
+}
+
+.footer-title {
+  color: #385482;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.footer-p {
+  color: #b1b8c5;
+  padding-bottom: 40px;
+  width: 40%;
+  line-height: 20pt;
+  padding-left: 100px;
+}
+
+.footer-p2 {
+  color: #b1b8c5;
+  padding-top: 80px;
+  width: 100%;
+  line-height: 20pt;
+  padding-left: 100px;
+}
+
+.f-table {
+  padding-top: 30px;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.table-title {
+  color: #385482;
+  font-size: 20px;
+}
+
+.table-content {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #b1b8c5;
+}
+
+.footer-p3 {
+  color: #b1b8c5;
+  padding-top: 45px;
+  width: 100%;
+  line-height: 20pt;
+  padding-left: 0px;
+}
