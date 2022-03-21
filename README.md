@@ -3,3 +3,5 @@ Prácticas para el curso LaunchX de Innovaccion Virtual, realizadas en HTML y CS
 
 # 💉 Página web de Vacunación 💉
 En esta práctica se clonó una página web usando HTML y CSS
+
+https://github.com/IsaacMacielH/FrontEnd-Mission-CSS/blob/main/img/Marketing.png
